@@ -39,6 +39,7 @@ export default function Games() {
         <Card Title="Worlds Hardest Game" Img="games/worldshardestgame.png" Url="/games/worldshardestgame/index.html" Target="_blank"/>
         <Card Title="Worlds Hardest Game 2" Img="games/worldshardestgame2.png" Url="/games/worldshardestgame2/index.html" Target="_blank"/>
       </center>
+      <p>Test</p>
       <Footer />
     </div>
   );
