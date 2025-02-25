@@ -23,13 +23,14 @@ Note 3 : Always update your mirror website whenever a new version is release.
 The code below is a data URL of an embedded Sunori mirror, it can bypass most restrictions set by browser extensions on Chrome and Edge. However it **cannot** be used to bypass external network restriction.
 
 ```
-Coming soon!
+data:text/html;base64,PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCgk8aGVhZD4NCgkJPHRpdGxlPlN1bm9yaTwvdGl0bGU+DQoJCTxzdHlsZT4NCgkJCWJvZHkgew0KCQkJCW1hcmdpbjogMDsNCgkJCX0NCgkJCWVtYmVkIHsNCgkJCQlib3JkZXI6IG5vbmU7DQoJCQkJd2lkdGg6IDEwMHZ3Ow0KCQkJCWhlaWdodDogMTAwdmg7DQoJCQl9DQoJCTwvc3R5bGU+DQoJPC9oZWFkPg0KCTxib2R5Pg0KCQk8ZW1iZWQgc3JjPSJodHRwczovL3N1bm9yaS5vcmciPjwvZW1iZWQ+DQoJPC9ib2R5Pg0KPC9odG1sPg==
 ```
 Data URLs work in the same way as HTTP(S) or file URLs, they can be opened directly in a new tab. (Just copy and paste the code above into a new tab's address bar and press enter)
 
 ## Credits
-[Nettleweb](https://github.com/nettleweb/): Used their README from their repo 'Nettlweb' as a template.<br>
-[tw31122007](https://github.com/tw31122007/): Some html games found in their template repo 'HTML-Games-V2'
+[Nettleweb](https://github.com/nettleweb/): README Template Source<br>
+[tw31122007](https://github.com/tw31122007/): HTML Games Source<br>
+[jcwyt](https://jcwyt.com/): Youtube Unblocked Source
 
 ## Issues
 if you have an addition suggestion or a complaint make an issue
