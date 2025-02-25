@@ -14,3 +14,24 @@ body{
     color: var(--text);
     margin: 0;
 }
+.navIco{
+    width: 150px;
+    height: 150px;
+}
+#icoNav{
+    list-style-type: none;
+    display: block;
+    width: 780px;
+    margin: auto;
+}
+#icoNav li{
+    display: inline-block;
+    padding: 20px;
+}
+#icoNav li:hover{
+    border: white 2px solid;
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+}

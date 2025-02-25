@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image'
+import Image from 'next/image';
 export default function Header(){
     return(
         <header>
@@ -9,9 +9,10 @@ export default function Header(){
             </Link>
             <nav>
                 <ul>
+                    <li><Link href="/">Home</Link></li>
                     <li><Link href="/games">Games</Link></li>
-                    <li><Link href="../../../youtube/index.html">Youtube</Link></li>
-                    <li><Link href="https://github.com/The-Sunori-Project/Sunori">Github</Link></li>
+                    <li><Link target="_blank" href="../../../youtube/index.html">Youtube</Link></li>
+                    <li><Link target="_blank" href="https://github.com/Sunori-Official/Sunori">Github</Link></li>
                 </ul>
             </nav>
             <hr />

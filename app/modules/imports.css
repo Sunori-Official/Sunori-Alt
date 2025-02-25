@@ -3,4 +3,5 @@
 /* Modules */
 
 @import './Header/Header.module.css';
+@import './Footer/Footer.module.css';
 @import "./Card/Card.module.css";

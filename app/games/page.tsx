@@ -1,6 +1,7 @@
-import Header from '../modules/Header/Header'
-import Card from '../modules/Card/Card'
-import '../modules/imports.css'
+import Header from '../modules/Header/Header';
+import Card from '../modules/Card/Card';
+import '../modules/imports.css';
+import Footer from '../modules/Footer/Footer';
 export default function Games() {
   return (
     <div>
@@ -38,6 +39,7 @@ export default function Games() {
         <Card Title="Worlds Hardest Game" Img="games/worldshardestgame.png" Url="/games/worldshardestgame/index.html" Target="_blank"/>
         <Card Title="Worlds Hardest Game 2" Img="games/worldshardestgame2.png" Url="/games/worldshardestgame2/index.html" Target="_blank"/>
       </center>
+      <Footer />
     </div>
   );
 }
