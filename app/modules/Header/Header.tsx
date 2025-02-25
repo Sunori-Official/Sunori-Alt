@@ -10,7 +10,7 @@ export default function Header(){
             <nav>
                 <ul>
                     <li><Link href="/games">Games</Link></li>
-                    <li><Link href="/youtube/index.html">Youtube</Link></li>
+                    <li><Link href="../../../youtube/index.html">Youtube</Link></li>
                     <li><Link href="https://github.com/The-Sunori-Project/Sunori">Github</Link></li>
                 </ul>
             </nav>
