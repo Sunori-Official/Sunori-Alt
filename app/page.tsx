@@ -6,9 +6,9 @@ import Footer from './modules/Footer/Footer';
 import './modules/imports.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import closeHandler from './closeHandler';
+import CloseHandler from './closeHandler';
 export default function app() {
-  closeHandler
+  CloseHandler
   return (
     <div>
       <Header />

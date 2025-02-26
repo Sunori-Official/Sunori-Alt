@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-export default function closeHandler(){
+export default function CloseHandler(){
     useEffect(() => {
         const unloadCallback = (event: any) => {
             event.preventDefault();
