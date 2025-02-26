@@ -2,7 +2,19 @@ import Header from '../modules/Header/Header';
 import Card from '../modules/Card/Card';
 import '../modules/imports.css';
 import Footer from '../modules/Footer/Footer';
+import React from 'react';
+
 export default function Games() {
+  React.useEffect(() => {
+      const unloadCallback = (event: any) => {
+        event.preventDefault();
+        event.returnValue = "";
+        return "";
+      };
+    
+      window.addEventListener("beforeunload", unloadCallback);
+      return () => window.removeEventListener("beforeunload", unloadCallback);
+    }, []);
   return (
     <div>
       <Header />

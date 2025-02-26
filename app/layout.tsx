@@ -1,6 +1,7 @@
 
 import "./globals.css";
 import type { Metadata } from "next";
+import React from "react";
 export const metadata: Metadata = {
   title: "Sunori",
   description: "The top-of-the-line games site Sunori",
@@ -10,6 +11,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="en">
       <body>
@@ -18,3 +20,4 @@ export default function RootLayout({
     </html>
   );
 }
+

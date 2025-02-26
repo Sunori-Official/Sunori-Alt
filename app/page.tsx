@@ -1,10 +1,23 @@
 
+'use client'
+
 import Header from './modules/Header/Header';
 import Footer from './modules/Footer/Footer';
 import './modules/imports.css';
 import Link from 'next/link';
 import Image from 'next/image';
+import React from 'react';
 export default function app() {
+  React.useEffect(() => {
+    const unloadCallback = (event: any) => {
+      event.preventDefault();
+      event.returnValue = "";
+      return "";
+    };
+  
+    window.addEventListener("beforeunload", unloadCallback);
+    return () => window.removeEventListener("beforeunload", unloadCallback);
+  }, []);
   return (
     <div>
       <Header />

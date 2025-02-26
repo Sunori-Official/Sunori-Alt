@@ -38,3 +38,8 @@ p{
 #games{
     padding-bottom: 500px;
 }
+.link{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
