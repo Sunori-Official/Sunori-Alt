@@ -6,9 +6,9 @@ import Footer from './modules/Footer/Footer';
 import './modules/imports.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import React from 'react';
+import { useEffect } from 'react';
 export default function app() {
-  React.useEffect(() => {
+  useEffect(() => {
     const unloadCallback = (event: any) => {
       event.preventDefault();
       event.returnValue = "";
