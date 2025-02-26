@@ -1,3 +1,6 @@
+
+'use client'
+
 import Header from '../modules/Header/Header';
 import Card from '../modules/Card/Card';
 import '../modules/imports.css';
