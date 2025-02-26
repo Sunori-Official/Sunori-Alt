@@ -6,18 +6,9 @@ import Footer from './modules/Footer/Footer';
 import './modules/imports.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useEffect } from 'react';
+import closeHandler from './closeHandler';
 export default function app() {
-  useEffect(() => {
-    const unloadCallback = (event: any) => {
-      event.preventDefault();
-      event.returnValue = "";
-      return "";
-    };
-  
-    window.addEventListener("beforeunload", unloadCallback);
-    return () => window.removeEventListener("beforeunload", unloadCallback);
-  }, []);
+  closeHandler
   return (
     <div>
       <Header />
