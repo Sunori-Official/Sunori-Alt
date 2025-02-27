@@ -19,13 +19,13 @@ Note 2: When hosting on github pages you must use actions to deploy our actions 
 
 Note 3 : Always update your mirror website whenever a new version is release.
 
-## Data URL
-The code below is a data URL of an embedded Sunori mirror, it can bypass most restrictions set by browser extensions on Chrome and Edge. However it **cannot** be used to bypass external network restriction.
+## Data URI
+The code below is a data URI of an embedded Sunori mirror, it can bypass most restrictions set by browser extensions on Chrome and Edge. However it **cannot** be used to bypass external network restriction.
 
 ```
-data:text/html;base64,PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCgk8aGVhZD4NCgkJPHRpdGxlPlN1bm9yaTwvdGl0bGU+DQoJCTxzdHlsZT4NCgkJCWJvZHkgew0KCQkJCW1hcmdpbjogMDsNCgkJCX0NCgkJCWVtYmVkIHsNCgkJCQlib3JkZXI6IG5vbmU7DQoJCQkJd2lkdGg6IDEwMHZ3Ow0KCQkJCWhlaWdodDogMTAwdmg7DQoJCQl9DQoJCTwvc3R5bGU+DQoJPC9oZWFkPg0KCTxib2R5Pg0KCQk8ZW1iZWQgc3JjPSJodHRwczovL3N1bm9yaS5vcmciPjwvZW1iZWQ+DQoJPC9ib2R5Pg0KPC9odG1sPg==
+data:text/html;base64,PCFET0NUWVBFIGh0bWw+CjxodG1sPgogICAgPGhlYWQ+CiAgICAgICAgPHRpdGxlPlN1bm9yaSBFbWJlZDwvdGl0bGU+CiAgICAgICAgPGxpbmsgcmVsPSJmYXZpY29uIiBocmVmPSJodHRwczovL3N1bm9yaS5vcmcvZmF2aWNvbi5pY28iPgogICAgICAgIDxzY3JpcHQ+CiAgICAgICAgICAgIHdpbmRvdy5vbmxvYWQoY2xvYWsoKSkKICAgICAgICAgICAgICAgIGZ1bmN0aW9uIGNsb2FrKCl7CiAgICAgICAgICAgICAgICBjb25zdCB3aW4gPSB3aW5kb3cub3BlbigpOwogICAgICAgICAgICAgICAgY29uc3QgZW1iZWQgPSB3aW4uZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZW1iZWQnKTsKICAgICAgICAgICAgICAgIGNvbnN0IGJvZHkgPSB3aW4uZG9jdW1lbnQuYm9keTsKICAgICAgICAgICAgICAgIGJvZHkuc3R5bGUubWFyZ2luID0gIjAiOwogICAgICAgICAgICAgICAgYm9keS5zdHlsZS5vdmVyZmxvdyA9ICJoaWRkZW4iOwogICAgICAgICAgICAgICAgZW1iZWQuc3R5bGUud2lkdGggPSAiMTAwdnciOwogICAgICAgICAgICAgICAgZW1iZWQuc3R5bGUuaGVpZ2h0ID0gIjEwMHZoIjsKICAgICAgICAgICAgICAgIGVtYmVkLnN0eWxlLmJvcmRlciA9ICJub25lIjsKICAgICAgICAgICAgICAgIGVtYmVkLnNyYyA9ICdodHRwczovL3N1bm9yaS5vcmcnOwogICAgICAgICAgICAgICAgd2luLmRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoZW1iZWQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICA8L3NjcmlwdD4KICAgICAgICA8c3R5bGU+CiAgICAgICAgICAgIGJvZHl7CiAgICAgICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjazsKICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTsKICAgICAgICAgICAgfQogICAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keT4KICAgICAgICA8cD5Mb2FkaW5nLi4uPC9wPgogICAgPC9ib2R5Pgo8L2h0bWw+
 ```
-Data URLs work in the same way as HTTP(S) or file URLs, they can be opened directly in a new tab. (Just copy and paste the code above into a new tab's address bar and press enter)
+Data URI's work in the same way as HTTP(S) or file URLs, they can be opened directly in a new tab. (Just copy and paste the code above into a new tab's address bar and press enter)
 
 ## Credits
 [Nettleweb](https://github.com/nettleweb/): README Template Source<br>

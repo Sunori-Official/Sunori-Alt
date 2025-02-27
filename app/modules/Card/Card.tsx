@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import styles from './Card.module.css'
 import Image from 'next/image';
 import React, { FC } from 'react';
 type CardProps = {
@@ -9,9 +10,9 @@ type CardProps = {
 }
 const Card: FC<CardProps> = ({ Img, Title, Url, Target }) => {
     return(
-        <Link target={Target} className='card' href={Url}>
-            <Image alt={Title + " Image"} className='cardImg' src={"/img/" + Img} width={100} height={150}/>
-            <p className='cardTitle'>{Title}</p>
+        <Link target={Target} className={styles.card+' link'} href={Url}>
+            <Image alt={Title + " Image"} className={styles.cardImg} src={"/img/" + Img} width={100} height={150}/>
+            <p className={styles.cardTitle}>{Title}</p>
         </Link>
     );
 }

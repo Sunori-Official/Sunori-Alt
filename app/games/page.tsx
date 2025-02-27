@@ -1,18 +1,18 @@
 
 'use client'
 
+import styles from './games.module.css';
 import Header from '../modules/Header/Header';
-import Card from '../modules/Card/Card';
-import '../modules/imports.css';
 import Footer from '../modules/Footer/Footer';
-import React from 'react';
+import Card from '../modules/Card/Card';
 import CloseHandler from '../closeHandler';
 export default function Games() {
   CloseHandler
   return (
     <div>
       <Header />
-      <h1 className="pageTitle">Games</h1>
+      <h1 className="title">Games</h1>
+      <div id={styles.games}>
       <center>
         <Card Title="2048" Img="games/2048.png" Url="/games/2048/index.html" Target="_blank"/>
         <Card Title="Age of War" Img="games/ageofwar.png" Url="/games/ageofwar/index.html" Target="_blank"/>
@@ -45,7 +45,7 @@ export default function Games() {
         <Card Title="Worlds Hardest Game" Img="games/worldshardestgame.png" Url="/games/worldshardestgame/index.html" Target="_blank"/>
         <Card Title="Worlds Hardest Game 2" Img="games/worldshardestgame2.png" Url="/games/worldshardestgame2/index.html" Target="_blank"/>
       </center>
-      <p>Test</p>
+      </div>
       <Footer />
     </div>
   );

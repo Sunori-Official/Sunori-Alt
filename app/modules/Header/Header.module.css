@@ -1,36 +1,26 @@
-header {
-    background-color: var(--foreground);
-    display: block;
-}
-#title {
-    position: absolute;
-    top: 1.5vh;
-    margin: 0;
-    font-size: 48px;
-    display: inline-block;
-    font-family: 'Major Mono Display', 'Times New Roman', Helvetica, Arial;
-}
-#favicon {
-    width: 48px;
-    display: inline-block;
+#favicon{
     vertical-align: top;
     margin: 10px;
+    display: inline-block;
 }
-nav {
+#title{
+    vertical-align: top;
+    display: inline-block;
+}
+#nav{
     position: absolute;
-    top: 1.5vh;
     right: 0;
+    top: 0;
 }
-nav li{
+#nav ul{
+    list-style-type: none;
+}
+#nav li{
     display: inline-block;
     margin-right: 10px;
-    font-size: 20px;
-    font-family: 'Comfforta', Verdana, Helvetica, Arial;
+    margin-left: 10px;
+    font-size: 3vh;
 }
-nav li:hover{
+#nav li:hover{
     transform: scale(1.05);
-}
-a{
-    color: white;
-    text-decoration: none;
 }

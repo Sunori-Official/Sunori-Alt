@@ -1,7 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Major+Mono+Display&family=Mrs+Saint+Delafield&display=swap');
-
-/* Modules */
-
-@import './Header/Header.module.css';
-@import './Footer/Footer.module.css';
-@import "./Card/Card.module.css";
