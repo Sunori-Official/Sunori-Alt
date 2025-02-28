@@ -1,12 +1,12 @@
 html {
   font-family: 'Nunito', sans-serif;
   color: white;
-  background-color: rgb(20, 20, 20);
+  background-color: black;
   margin-left: 25px;
   margin-right: 25px;
 }
 hr {
-  background-color: rgb(30,30,30);
+  background-color: black;
   border-color: transparent;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -25,7 +25,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(20,20,20);
+  background-color: black;
 }
 a {
   color: white;
@@ -41,10 +41,10 @@ a {
 button, input {
 	border-radius: 4px;
 	outline: none;
-	border: 2px solid rgb(45, 45, 45);
+	border: 2px solid black;
 }
 button {
-	background-color: rgb(45, 45, 45);
+	background-color: black;
 	width: 4rem;
 	color: white;
 	height: 1.3rem;
@@ -52,12 +52,15 @@ button {
 input {
 	height: 1.2rem;
 	outline: none;
+  background-color: black;
+  border: white solid 2px;
+  color: white;
 }
 input:focus, textarea:focus, select:focus{
 	outline: none;
 }
 button:active {
-	background-color: rgb(25, 25, 25);
+	background-color: black;
 	color: rgb(224, 224, 224);
 }
 .space {
