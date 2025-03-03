@@ -30,7 +30,7 @@ Data URI's work in the same way as HTTP(S) or file URLs, they can be opened dire
 ## Credits
 [Nettleweb](https://github.com/nettleweb/): README Template Source<br>
 [tw31122007](https://github.com/tw31122007/): HTML Games Source<br>
-[jcwyt](https://jcwyt.com/): Youtube Unblocked Source
+[jcwyt](https://github.com/jcwyt/): Youtube Unblocked Source
 
 ## Issues
 if you have an addition suggestion or a complaint make an issue
