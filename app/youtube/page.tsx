@@ -10,7 +10,7 @@ export default function Youtube(){
     return(
         <div>
             <Header />
-            <embed id={styles.embed} src="/embed/youtube/index.html" />
+                <iframe id={styles.embed} src="/embed/youtube/index.html" />
             <Footer />
         </div>
     );
