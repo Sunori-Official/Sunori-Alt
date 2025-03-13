@@ -9,6 +9,7 @@ body{
     background-color: var(--background);
     color: var(--text);
     user-select: none;
+    overflow-x: none;
 }
 .title{
     font-family: 'Major Mono Display', 'Times New Roman', Verdana, Arial;
