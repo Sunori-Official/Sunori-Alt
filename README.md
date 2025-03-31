@@ -31,6 +31,7 @@ Data URIs work the same way as HTTP(S) or file URLs, they can be opened directly
 [Nettleweb](https://github.com/nettleweb/): README Template Source<br>
 [tw31122007](https://github.com/tw31122007/): HTML Games Source<br>
 [jcwyt](https://github.com/jcwyt/): Youtube Unblocked Source
+[lax1dude](https://github.com/lax1dude): Eaglercraft Source
 
 ## Issues
 if you have a suggestion or complaint make an issue
