@@ -10,7 +10,7 @@ type GameProps = {
     Creator?: string;
 }
 const Game: FC<GameProps> = ({ Name = "Game", Creator = "Unknown"}) => {
-    let Url = Name.replace(/\s/g, '').toLowerCase()
+    const Url = Name.replace(/\s/g, '').toLowerCase()
     const fullscreen = () => {
         const win: any = window.open();
         const iframe: any = win.document.createElement('embed');
