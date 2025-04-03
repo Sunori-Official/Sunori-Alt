@@ -1,7 +1,11 @@
 #favicon{
     vertical-align: top;
-    margin: 10px;
+    margin-top: 2.5vh;
+    margin-right: 2.5vh;
     display: inline-block;
+}
+#header{
+    z-index: 10;
 }
 #title{
     vertical-align: top;
@@ -17,9 +21,10 @@
 }
 #nav li{
     display: inline-block;
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 3vh;
+    margin-top: 1.75vh;
+    margin-right: 1.5vh;
+    margin-left: 1.5vh;
+    font-size: 3.5vh;
 }
 #nav li:hover{
     transform: scale(1.05);

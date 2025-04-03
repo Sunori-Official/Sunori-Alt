@@ -14,15 +14,11 @@
     border: #00e600 2px outset;
     transform: scale(1.05);
 }
-.card:hover .cardImg{
-    border: #00e600 1px outset;
-}
 .cardTitle{
     text-align: center;
 }
 .cardImg{
-    border: solid white 1px;
     border-radius: 10px;
-    filter: drop-shadow(0 0 0.75rem #4d423f);
     width: 150px;
+    filter: drop-shadow(7px 7px 7px #262626);
 }

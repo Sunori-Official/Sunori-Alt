@@ -8,12 +8,14 @@ type CardProps = {
     Target?: string;
     Url?: string;
 }
+
 const Card: FC<CardProps> = ({ Img, Title, Url, Target }) => {
     return(
         <Link target={Target} className={styles.card+' link'} href={'' + Url}>
-            <Image alt={Title + " Image"} className={styles.cardImg} src={"/img/" + Img} width={100} height={150}/>
+            <Image alt={Title+"'s Icon"} className={styles.cardImg} src={"/img/" + Img} width={150} height={150}/>
             <p className={styles.cardTitle}>{Title}</p>
         </Link>
     );
 }
+
 export default Card;
