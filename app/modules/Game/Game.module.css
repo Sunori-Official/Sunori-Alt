@@ -1,35 +1,43 @@
-#game{
-    border: none;
-    position: absolute;
-    left: -0.5vw;
-    top: 21vh;
-    width: 101vw;
-    height: 100%;
-}
-#fullscreen{
-    position: absolute;
-    right: 0;
-    top: 16.5vh;
-    cursor: pointer;
-}
-#title{
-    position: absolute;
-    top: -5.5vh;
-    left: 50vw;
-    z-index: -1;
-}
-#title p{
-    position: relative; 
-    left: -50%;
-}
-#credits{
-    position: absolute;
-    left: 0;
-    top: 16.5vh;
-}
 #page{
     margin: 0;
     padding: 0;
     width: 110vw;
     height: 100vh;
+}
+#game{
+    border: none;
+    position: absolute;
+    left: -0.5vw;
+    top: 40vh;
+    width: 101vw;
+    height: 100%;
+}
+#title{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    z-index: -1;
+    width: 100vw;
+}
+#title p{
+    width: 10vw;
+}
+#fullscreen{
+    display: flex;
+    position: absolute;
+    top: 32.9vh;
+    width: 100vw;
+    height: 5vh;
+    justify-content: right;
+}
+#fullscreen p{
+    cursor: pointer;
+}
+#credits{
+    display: flex;
+    position: absolute;
+    top: 32.9vh;
+    width: 100vw;
+    height: 5vh;
+    justify-content: left;
 }

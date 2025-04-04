@@ -30,8 +30,8 @@ const Game: FC<GameProps> = ({ Name = "Game", Creator = "Unknown"}) => {
             <div id={styles.title} className="title">
                 <p>{Name}</p>
             </div>
-            <span id={styles.credits}>Game Made By: {Creator}</span>
-            <span onClick={fullscreen} id={styles.fullscreen}>Fullscreen</span>
+            <div id={styles.credits}><p>Game Made By: {Creator}</p></div>
+            <div id={styles.fullscreen}><p onClick={fullscreen}>Fullscreen</p></div>
             <iframe id={styles.game} src={"/embed/games/"+Url+"/index.html"} />
         </div>
     );
