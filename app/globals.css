@@ -26,3 +26,13 @@ body{
 .inline-block{
     display: inline-block;
 }
+#ErrPage{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    z-index: -1;
+    width: 100vw;
+}
+#Err404{
+    width: fit-content;
+}
