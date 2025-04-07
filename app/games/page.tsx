@@ -43,6 +43,7 @@ export default function Games() {
         <Card Title="Moto X3M 2" Img="games/motox3m2.png" Url="/g/motox3m2/" />
         <Card Title="OvO" Img="games/ovo.png" Url="/g/ovo/" />
         <Card Title="Paper.io 2" Img="games/paperio2.png" Url="/g/paperio2/" />
+        <Card Title="Polytrack" Img="games/polytrack.png" Url="/g/polytrack/" />
         <Card Title="Slope" Img="games/slope.png" Url="/g/slope/" />
         <Card Title="Stack" Img="games/stack.png" Url="/g/stack/" />
         <Card Title="Superhot" Img="games/superhot.png" Url="/g/superhot/" />

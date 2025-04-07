@@ -30,8 +30,9 @@ Data URIs work the same way as HTTP(S) or file URLs, they can be opened directly
 ## Credits
 [Nettleweb](https://github.com/nettleweb/): README Template Source<br>
 [tw31122007](https://github.com/tw31122007/): HTML Games Source<br>
-[jcwyt](https://github.com/jcwyt/): Youtube Unblocked Source
-[lax1dude](https://github.com/lax1dude): Eaglercraft Source
+[jcwyt](https://github.com/jcwyt/): Youtube Unblocked Source<br>
+[lax1dude](https://github.com/lax1dude): Eaglercraft Source<br>
+[stuffed18](https://github.com/stuffed18): Polytrack Source
 
 ## Issues
 if you have a suggestion or complaint make an issue
