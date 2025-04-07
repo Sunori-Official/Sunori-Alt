@@ -20,7 +20,7 @@
     width: 100vw;
 }
 #title p{
-    width: 10vw;
+    width: fit-content;
 }
 #fullscreen{
     display: flex;
