@@ -21,7 +21,7 @@ const ContentCard: React.FC<ContentCardProps> = ({ item, index }) => {
         <img
           src={item.img}
           alt={item.title}
-          className="w-full h-full object-cover bg-white dark:bg-black"
+          className="w-full h-full object-cover bg-black"
           loading="lazy"
         />
       </div>
