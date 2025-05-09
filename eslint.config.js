@@ -29,7 +29,8 @@ export default tseslint.config(
     "@next/next/no-html-link-for-pages": "off",
     "@typescript-eslint/consistent-type-imports": "off",
     "@next/next/no-img-element": "off",
-    "typescript-eslint/prefer-nullish-coalescing": "off"
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off"
   },
   },
   {
