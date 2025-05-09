@@ -30,7 +30,8 @@ export default tseslint.config(
     "@typescript-eslint/consistent-type-imports": "off",
     "@next/next/no-img-element": "off",
     "@typescript-eslint/prefer-nullish-coalescing": "off",
-    "@typescript-eslint/no-unsafe-member-access": "off"
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "typescript-eslint/no-duplicate-type-constituents": "off"
   },
   },
   {
