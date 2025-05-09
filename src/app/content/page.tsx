@@ -4,6 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import contentData from '~/data/content.json';
 import { FadeIn } from '~/lib/animations';
+import { Suspense } from 'react';
 
 interface ContentItem {
   title: string;
@@ -90,11 +91,13 @@ export default function ContentPage() {
   }
 
   return (
+    <Suspense>
     <FadeIn>
       <h1 className="font-header text-center text-4xl mb-10">{contentItem.title}</h1>
       <p className="text-left absolute top-[22vh] w-screeen">Created by: {contentItem.creator}</p>
       <button onClick={fullscreen} className="cursor-pointer hover:scale-[1.05] absolute right-[0] hover:right-[0.3vw] top-[22vh]">Fullscreen</button>
       <iframe className="w-screen h-screen" src={contentItem.src}></iframe>
     </FadeIn>
+    </Suspense>
   );
 }
