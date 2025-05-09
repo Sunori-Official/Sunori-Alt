@@ -4,6 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import contentData from '~/data/content.json';
 import { FadeIn } from '~/lib/animations';
+import { Suspense } from 'react';
 
 interface ContentItem {
   title: string;
@@ -17,8 +18,7 @@ interface ContentData {
   books: Record<string, ContentItem>;
   apps: Record<string, ContentItem>;
 }
-
-export default function ContentPage() {
+const ContentPageContent = () => {
   const searchParams = useSearchParams();
   const category = searchParams.get('category');
   const item = searchParams.get('item');
@@ -96,5 +96,12 @@ export default function ContentPage() {
       <button onClick={fullscreen} className="cursor-pointer hover:scale-[1.05] absolute right-[0] hover:right-[0.3vw] top-[22vh]">Fullscreen</button>
       <iframe className="w-screen h-screen" src={contentItem.src}></iframe>
     </FadeIn>
+  );
+}
+export default function ContentPage(){
+  return(
+    <Suspense fallback={<p>Loading...</p>}>
+      <ContentPageContent />
+    </Suspense>
   );
 }
