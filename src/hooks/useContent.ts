@@ -8,9 +8,9 @@ interface UseContentProps {
 }
 
 export const useContent = ({ category, limit }: UseContentProps = {}) => {
-  const [data, setData] = useState<ContentData | null>(null);
+  const [data, setData] = useState<ContentData | string>('');
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<string | string>('');
   const [filteredItems, setFilteredItems] = useState<ContentItem[]>([]);
 
   useEffect(() => {
