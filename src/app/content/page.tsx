@@ -77,15 +77,15 @@ const ContentPageContent = () => {
   }
   const fullscreen = () => {
     const win: any = window.open();
-    const iframe: any = win.document.createElement('embed');
+    const embed: any = win.document.createElement('embed');
     const body: any = win.document.body;
     body.style.margin = "0";
     body.style.overflow = "hidden";
     body.style.backgroundColor = "black";
-    iframe.style.width = "100vw";
-    iframe.style.height = "100vh";
-    iframe.style.border = "none";
-    iframe.src = contentItem.src;
+    embed.style.width = "100vw";
+    embed.style.height = "100vh";
+    embed.style.border = "none";
+    embed.src = contentItem.src;
     win.document.body.appendChild(iframe);
   }
 
@@ -94,7 +94,7 @@ const ContentPageContent = () => {
       <h1 className="font-header text-center text-4xl mb-10">{contentItem.title}</h1>
       <p className="text-left absolute top-[22vh] w-screeen">Created by: {contentItem.creator}</p>
       <button onClick={fullscreen} className="cursor-pointer hover:scale-[1.05] absolute right-[0] hover:right-[0.3vw] top-[22vh]">Fullscreen</button>
-      <iframe className="w-screen h-screen" src={contentItem.src}></iframe>
+      <embed className="w-screen h-screen" src={contentItem.src}></embed>
     </FadeIn>
   );
 }
