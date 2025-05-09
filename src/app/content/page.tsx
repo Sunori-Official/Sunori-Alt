@@ -86,7 +86,7 @@ const ContentPageContent = () => {
     embed.style.height = "100vh";
     embed.style.border = "none";
     embed.src = contentItem.src;
-    win.document.body.appendChild(iframe);
+    win.document.body.appendChild(embed);
   }
 
   return (
