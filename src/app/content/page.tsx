@@ -62,18 +62,22 @@ export default function ContentPage() {
 
   if (error) {
     return (
+      <Suspense>
       <FadeIn>
         <h1 className="text-center text-xl">Error</h1>
         <p className="text-center">{error}</p>
       </FadeIn>
+      </Suspense>
     );
   }
 
   if (!contentItem) {
     return(
+      <Suspense>
       <div className="flex justify-center items-center py-20">
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-600"></div>
       </div>
+      </Suspense>
     );
   }
   const fullscreen = () => {
